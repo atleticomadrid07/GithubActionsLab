@@ -4,7 +4,7 @@ on: push
 
 jobs:
   init:
-    runs-on: linux-latest
+    runs-on: self-hosted
     steps: 
       - run: echo 'hello cloud guru'
       - run: echo $HOSTNAME
